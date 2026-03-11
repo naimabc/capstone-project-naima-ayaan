@@ -1,4 +1,4 @@
-import Header from "./components/Header.jsx";
+import Header from "../components/Header.jsx";
 function About() {
   return (
     <Header title='About Us' subtitle='Meet the team!'/>
