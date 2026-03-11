@@ -1,7 +1,10 @@
+import Header from "./components/Header.jsx";
+
 function Home() {
-    <div>
-       
-    </div>
-    return <h1>Home Page</h1>;
+    return(
+        <div>
+            <Header title='Welcome!' subtitle='subtitle'/>
+        </div>
+    );
 }
 export default Home;
