@@ -5,7 +5,6 @@ import Profile from "./pages/Profile";
 
 function App() {
   return (
-    
     <BrowserRouter>
       <nav>
         <Link to="/">Home</Link> |{" "}

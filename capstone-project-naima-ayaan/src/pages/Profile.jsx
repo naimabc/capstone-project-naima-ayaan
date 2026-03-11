@@ -1,5 +1,9 @@
+import Header from "../components/Header.jsx";
+
 function Profile() {
-  return <h1>Profile Page</h1>;
+  return(
+  <Header title='Username' subtitle='subtitle'/>
+  );
 }
 
 

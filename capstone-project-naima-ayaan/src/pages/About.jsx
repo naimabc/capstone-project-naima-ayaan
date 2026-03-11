@@ -1,5 +1,11 @@
+import Header from "../components/Header.jsx";
 function About() {
-  return <h1>About Page</h1>;
+  return (
+    <Header title='About Us' subtitle='Meet the team!'/>
+
+
+
+  );
 }
 
 export default About;
