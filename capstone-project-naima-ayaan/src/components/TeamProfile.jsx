@@ -1,8 +1,8 @@
 function TeamProfile({name, role, bio, image}) {
     return (
-        <div>  
-            <h2>{name}:</h2>
-            <h5>Role: {role}</h5>
+        <div class="border rounded-3xl p-10 m-20  w-sm object-center">  
+            <h2 class="text-2xl">{name}:</h2>
+            <h5 class="text-lg">Role: {role}</h5>
             <br></br>
             <img src={image}></img>
             <br></br>
@@ -10,4 +10,4 @@ function TeamProfile({name, role, bio, image}) {
        </div>
     );
 }
-export default Header;
+export default TeamProfile;
