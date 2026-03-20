@@ -12,18 +12,18 @@ function App() {
       <BrowserRouter>
         <nav>
           <Link to="/">Home</Link> |{" "}
-          <Link to="/about">About</Link> |{" "}
           <Link to="/profile">Profile</Link> |{" "}
           <Link to="/quiz">Quiz</Link> |{" "}
-          <Link to="/allbooks">Browse Books</Link>
+          <Link to="/allbooks">Browse Books</Link> |{" "}
+          <Link to="/about">About</Link>
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
           <Route path="/profile" element={<Profile />} />
           <Route path="/quiz" element={<Quiz />}/>
           <Route path="/allbooks" element={<AllBooks />}/>
           <Route path="/quizresults" element={<QuizResults />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </BrowserRouter>
 
