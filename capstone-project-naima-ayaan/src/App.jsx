@@ -6,6 +6,7 @@ import Quiz from "./pages/Quiz";
 import AllBooks from "./pages/AllBooks";
 import QuizResults from "./pages/QuizResults";
 import Login from "./pages/Login";
+import Book from "./pages/Book";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Link to="/profile">Profile</Link> |{" "}
           <Link to="/quiz">Quiz</Link> |{" "}
           <Link to="/allbooks">Browse Books</Link> |{" "}
+          <Link to="/book">Book</Link> |{" "}
+
           <Link to="/about">About</Link>
         </nav>
         <Routes>
@@ -25,6 +28,7 @@ function App() {
           <Route path="/profile" element={<Profile />} />
           <Route path="/quiz" element={<Quiz />}/>
           <Route path="/allbooks" element={<AllBooks />}/>
+          <Route path="/book" element={<Book />}/>
           <Route path="/quizresults" element={<QuizResults />} />
           <Route path="/about" element={<About />} />
         </Routes>
