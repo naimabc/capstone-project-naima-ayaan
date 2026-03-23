@@ -10,6 +10,7 @@ import Book from "./pages/Book";
 
 function App() {
   return (
+<<<<<<< HEAD
     <div class="bg-neutral-100">
       <div class="text-center p-10">
         <BrowserRouter>
@@ -34,6 +35,31 @@ function App() {
             <Route path="/about" element={<About />} />
           </Routes>
         </BrowserRouter>
+=======
+    <div class="text-center m-10">
+      <BrowserRouter>
+        <nav>
+          <Link to="/">Home</Link> |{" "}
+          <Link to="/login">Login</Link> |{" "}
+          <Link to="/profile">Profile</Link> |{" "}
+          <Link to="/quiz">Quiz</Link> |{" "}
+          <Link to="/allbooks">Browse Books</Link> |{" "}
+          <Link to="/book">Book</Link> |{" "}
+
+          <Link to="/about">About</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/quiz" element={<Quiz />}/>
+          <Route path="/allbooks" element={<AllBooks />}/>
+          <Route path="/book" element={<Book />}/>
+          <Route path="/quizresults" element={<QuizResults />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      </BrowserRouter>
+>>>>>>> 0e0cf8d (book page)
 
       </div>
     </div>
