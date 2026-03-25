@@ -1,7 +1,7 @@
 function ProgressBar() {
     return (
-    
-       <div class="flex items-center justify-between border-t border-white/10 px-4 py-3 sm:px-6">
+    // figure out how to center this
+       <div class="flex border-t border-white/10 px-4 py-3">
             <div class="flex flex-1 justify-between sm:hidden">
             <a href="#" class="relative inline-flex items-center rounded-md border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-gray-200 hover:bg-white/10">Previous</a>
             <a href="#" class="relative ml-3 inline-flex items-center rounded-md border border-white/10 bg-white/5 px-4 py-2 text-sm font-medium text-gray-200 hover:bg-white/10">Next</a>

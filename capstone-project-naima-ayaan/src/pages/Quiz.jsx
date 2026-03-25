@@ -8,7 +8,7 @@ function Quiz() {
   return(
     <div>
       <Header title='Quiz' subtitle='What Archetype Are You?'/>
-      <QuizQuestion/>
+      <QuizQuestion question='Question' option1='Option 1' option2='Option 2' option3='Option 3' option4='Option4'/>
       <ProgressBar/>
       <Link to="/quizresults"><QuizButton title='See Results'/></Link>
     </div>
