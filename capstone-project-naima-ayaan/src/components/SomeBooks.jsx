@@ -1,4 +1,4 @@
-import Carousel from 'react-bootstrap/Carousel';
+
 import BookCard from "./BookCard.jsx"
 
 function SomeBooks({}) {
