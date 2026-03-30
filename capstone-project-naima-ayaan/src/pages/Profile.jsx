@@ -10,7 +10,7 @@ import Type5 from "../components/archetypes/Type5.jsx";
 function Profile() {
   return(
     <div>
-      <Header title='Username' subtitle='subtitle'/>
+      <Header title="Kazi's" subtitle='Profile'/>
       <Subtitle subtitle='Your Reading Type:'/>
       <Type1/>
       <Subtitle subtitle='Saved Books:'/>

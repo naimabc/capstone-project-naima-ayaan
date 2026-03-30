@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@theme {
+  --color-sage: #c0c995;
+  --color-nature: #828b58;
+  --color-leaves: #41522c;
+  --color-zest: #f6f4c1;
+  --color-butter: #faf9de;
+  --color-stone: #473f34;
+}

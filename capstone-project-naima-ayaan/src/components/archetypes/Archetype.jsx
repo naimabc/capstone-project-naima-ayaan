@@ -12,7 +12,7 @@ const [showMore, setShowMore] = useState(false);
             <br></br>
 
             <button
-                onClick={() => setShowMore(!showMore)} className="mt-4 text-sm hover:text-blue-700 font-semibold">
+                onClick={() => setShowMore(!showMore)} className="mt-4 text-sm hover:text-nature font-semibold">
                 {showMore ? "▲ Show Less" : "▼ Show More"}
             </button>
 
