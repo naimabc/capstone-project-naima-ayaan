@@ -2,7 +2,7 @@ import Subtitle from '../components/Subtitle';
 
 function QuizQuestion({question,option1,option2,option3,option4}) {
     return (
-      <div class="border rounded-xl m-20 p-10 object-center max-w-xl mx-auto">
+      <div class="border rounded-xl m-20 p-10 object-center max-w-xl mx-auto font-serif text-neutral-700">
         <p>
           <Subtitle subtitle={question}/>
           <br></br>

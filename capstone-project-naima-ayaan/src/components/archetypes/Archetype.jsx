@@ -4,7 +4,7 @@ import {useState} from "react";
 function Archetype({archName, subtitle, info, image}) {
 const [showMore, setShowMore] = useState(false);
     return (
-        <div class="text-center border rounded-xl p-10 m-10 max-w-3xl mx-auto">
+        <div class="font-serif text-neutral-700 text-center border rounded-xl p-10 m-10 max-w-2xl mx-auto">
             <h2 class="text-2xl">{archName}:</h2>
             <br></br>
             <h5 class="text-lg">{subtitle}</h5>
