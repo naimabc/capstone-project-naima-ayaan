@@ -1,14 +1,19 @@
 import Header from "../components/Header.jsx";
-// import Archetype from "../components/Archetype.jsx";
 import Subtitle from "../components/Subtitle.jsx";
 import SomeBooks from "../components/SomeBooks.jsx";
+import Type1 from "../components/archetypes/Type1.jsx";
+import Type2 from "../components/archetypes/Type2.jsx";
+import Type3 from "../components/archetypes/Type3.jsx";
+import Type4 from "../components/archetypes/Type4.jsx";
+import Type5 from "../components/archetypes/Type5.jsx";
 
 function Profile() {
   return(
     <div>
       <Header title='Username' subtitle='subtitle'/>
-      {/* <Archetype archName="Hero" genres="Fantasy, Adventure" info="info" image=""/> */}
-      <Subtitle subtitle='Your Saved Books'/>
+      <Subtitle subtitle='Your Reading Type:'/>
+      <Type1/>
+      <Subtitle subtitle='Saved Books:'/>
       <SomeBooks/>
 
   </div>

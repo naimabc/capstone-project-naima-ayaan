@@ -2,6 +2,7 @@
 import Header from "../components/Header.jsx";
 import QuizButton from "../components/QuizButton.jsx";
 import { Link } from "react-router-dom";
+import Subtitle from "../components/Subtitle.jsx";
 import Type1 from "../components/archetypes/Type1.jsx";
 import Type2 from "../components/archetypes/Type2.jsx";
 import Type3 from "../components/archetypes/Type3.jsx";
@@ -13,12 +14,12 @@ import Type5 from "../components/archetypes/Type5.jsx";
 
 function Home() {
     return(
-        <>
+        <div>
             <Header title='Welcome!' subtitle='Kazi'/>
             <Link to="/quiz"><QuizButton title="Click to Take Quiz!"/></Link>
             <br></br>
             <br></br>
-            <h1 class="text-2xl">The Archetypes:</h1>
+            <Subtitle subtitle="All Types:"></Subtitle>
             <div>
                 <Type1/>
                 <Type2/>
@@ -27,7 +28,7 @@ function Home() {
                 <Type5/>
                 
             </div>
-        </>
+        </div>
     );
 }
 export default Home;
