@@ -12,7 +12,7 @@ function Login() {
       <div>
         <label for="email" class="block text-sm/6 font-medium text-leaves">Email address</label>
         <div class="mt-2">
-          <input id="email" type="email" name="email" required autocomplete="email" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-leaves outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-nature sm:text-sm/6" />
+          <input id="email" type="email" name="email" required autocomplete="email" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-leaves outline-1 -outline-offset-1 outline-sage placeholder:text-nature focus:outline-2 focus:-outline-offset-2 focus:outline-nature sm:text-sm/6" />
         </div>
       </div>
 
@@ -24,7 +24,7 @@ function Login() {
           </div>
         </div>
         <div class="mt-2">
-          <input id="password" type="password" name="password" required autocomplete="current-password" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-leaves outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-nature sm:text-sm/6" />
+          <input id="password" type="password" name="password" required autocomplete="current-password" class="block w-full rounded-md bg-white px-3 py-1.5 text-base text-leaves outline-1 -outline-offset-1 outline-sage placeholder:text-nature focus:outline-2 focus:-outline-offset-2 focus:outline-nature sm:text-sm/6" />
         </div>
       </div>
 

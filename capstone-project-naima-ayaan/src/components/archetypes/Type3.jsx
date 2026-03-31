@@ -2,7 +2,7 @@ import Archetype from "../archetypes/Archetype";
 function Type3() {
     return (
         <div>  
-            <Archetype archName="Type 3" subtitle="short description" info="full description" image=""/>
+            <Archetype archName="Sunflower" subtitle="You enjoy whimsical, upbeat, and light hearted works." info="full description" image=""/>
        </div>
     );
 }

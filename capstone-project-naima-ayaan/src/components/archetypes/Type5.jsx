@@ -2,7 +2,7 @@ import Archetype from "../archetypes/Archetype";
 function Type5() {
     return (
         <div>  
-            <Archetype archName="Type 5" subtitle="short description" info="full description" image=""/>
+            <Archetype archName="Magnolia" subtitle="You enjoy setting oriented, descriptive, and immersive works." info="full description" image=""/>
        </div>
     );
 }

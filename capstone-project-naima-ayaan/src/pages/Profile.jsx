@@ -12,7 +12,7 @@ function Profile() {
     <div>
       <Header title="Kazi's" subtitle='Profile'/>
       <Subtitle subtitle='Your Reading Type:'/>
-      <Type1/>
+      <Type4/>
       <Subtitle subtitle='Saved Books:'/>
       <SomeBooks/>
 
