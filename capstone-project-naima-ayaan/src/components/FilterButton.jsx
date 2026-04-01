@@ -1,6 +1,6 @@
-function FilterButton({title,link}) {
+function FilterButton({title}) {
     return (
-        <div class="text-center bg-neutral-600 hover:bg-neutral-700 rounded-xl p-2 m-5 w-30">
+        <div class="text-center bg-leaves hover:bg-stone rounded-xl p-2 m-5 w-30">
             <h1 class="text-neutral-100 font-serif">{title}</h1>
        </div>
     );
