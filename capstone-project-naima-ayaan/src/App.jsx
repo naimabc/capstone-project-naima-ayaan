@@ -13,7 +13,7 @@ function App() {
     <div class="bg-zest">
       <div class="text-center p-10">
         <BrowserRouter>
-          <nav class="text-leaves">
+          <nav class="text-leaves font-serif">
             <Link to="/">Home</Link> |{" "}
             <Link to="/login">Login</Link> |{" "}
             <Link to="/profile">Profile</Link> |{" "}
