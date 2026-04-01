@@ -6,11 +6,11 @@ import Text from "../components/Text.jsx";
 function Book() {
   return(
      <>
-            <Header title='Jane Eyre' subtitle='Charlotte Bronte'/>
-            <div className="columns-3 flex gap-10 max-sm:columns-2">
+            <Header title='The Memory Police' subtitle='Yoko Ogawa'/>
+            <div className="columns-2 gap-20 max-sm:columns-1">
 
-            <BookCard cover="https://m.media-amazon.com/images/I/91mWGZ17QRL._AC_UF1000,1000_QL80_.jpg" title="The Memory Police" author="Yoko Ogawa"/>
-            <Text subtitle='Synopsis' text='synopsis of book here blah blah blah poor orphen girl blah blah blah older dude who is secretly married'/>
+            <BookCard cover="https://m.media-amazon.com/images/I/91mWGZ17QRL._AC_UF1000,1000_QL80_.jpg" title="" author=""/>
+            <Text subtitle='Synopsis' text='The Memory Police by Yōko Ogawa is a dystopian novel set on an unnamed island where objects and memories collectively disappear, enforced by a draconian police force. A young novelist tries to protect her editor, R, who retains memories of lost things, as their world shrinks to include the loss of limbs and silence.'/>
             </div>
         </>
   );
