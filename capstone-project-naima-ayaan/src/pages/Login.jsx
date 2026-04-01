@@ -7,7 +7,7 @@ function Login() {
     <Header title='Sign in to your account' subtitle=''/>
   </div>
 
-  <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
+  <div class="mt-10 sm:mx-auto sm:w-full sm:max-w-sm font-serif">
     <form action="#" method="POST" class="space-y-6">
       <div>
         <label for="email" class="block text-sm/6 font-medium text-leaves">Email address</label>
