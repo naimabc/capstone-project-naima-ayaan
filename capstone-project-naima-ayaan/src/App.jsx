@@ -12,7 +12,7 @@ function App() {
   return (
     <div class="bg-zest">
       <div class="text-center p-10">
-        <BrowserRouter>
+        <BrowserRouter basename="capstone-project-naima-ayaan">
           <nav class="text-leaves font-serif">
             <Link to="/">Home</Link> |{" "}
             <Link to="/login">Login</Link> |{" "}
