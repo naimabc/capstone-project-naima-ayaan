@@ -1,4 +1,4 @@
-import Subtitle from '../components/Subtitle';
+import Subtitle from './Subtitle';
 
 function QuizQuestion({question,option1,option2,option3,option4}) {
     return (
