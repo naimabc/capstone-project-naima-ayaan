@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import MemPol from "./pages/Books/MemPol";
 import JaneEyre from "./pages/Books/JaneEyre";
 import ManFallSky from "./pages/Books/ManFallSky";
+import Slaught5 from "./pages/Books/Slaught5";
 
 
 function App() {
@@ -37,6 +38,7 @@ function App() {
             <Route path="/Books/mempol" element={<MemPol />}/>
             <Route path="/Books/janeeyre" element={<JaneEyre />}/>
             <Route path="/Books/manfallsky" element={<ManFallSky />}/>
+            <Route path="/Books/slaught5" element={<Slaught5 />}/>
             <Route path="/quizresults" element={<QuizResults />} />
             <Route path="/about" element={<About />} />
           </Routes>
