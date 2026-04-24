@@ -1,4 +1,4 @@
-import Archetype from "./Archetype";
+import Archetype from "../archetypes/Archetype";
 function Type4() {
     return (
         <div>  

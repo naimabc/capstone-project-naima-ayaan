@@ -8,7 +8,7 @@ const [showMore, setShowMore] = useState(false);
             <h2 class="text-2xl">{archName}:</h2>
             <br></br>
             <h5 class="text-lg">{subtitle}</h5>
-           <img src={image} class="mx-auto m-5 object-contain h-40 w-50 object-cover"></img>
+           <img src={image} class="mx-auto m-5 object-contain h-40 w-50 "></img>
             <br></br>
 
             <button
