@@ -15,7 +15,7 @@ import Type5 from "../components/archetypes/Type5.jsx";
 function Home() {
     return(
         <div>
-            <Header title='Welcome!' subtitle='Kazi'/>
+            <Header title='Welcome!!!' subtitle='Kazi'/>
             <Link to="/quiz"><QuizButton title="Click to Take Quiz!"/></Link>
             <br></br>
             <br></br>
