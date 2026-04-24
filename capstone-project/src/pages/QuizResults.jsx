@@ -6,6 +6,7 @@ import Type2 from "../components/archetypes/Type2.jsx";
 import Type3 from "../components/archetypes/Type3.jsx";
 import Type4 from "../components/archetypes/Type4.jsx";
 import Type5 from "../components/archetypes/Type5.jsx";
+import MemPol from "../pages/Books/MemPol.jsx"
 
 
 
@@ -16,7 +17,9 @@ function QuizResults() {
       <Header title='Results:' subtitle='Your Archetype is the...'/>
       <Type1/>
       <Subtitle subtitle="Your recommended books:"/>
+
       <SomeBooks/>
+      <MemPol />
     </div>
   );
 }

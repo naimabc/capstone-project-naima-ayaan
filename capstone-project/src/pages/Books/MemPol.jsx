@@ -1,0 +1,13 @@
+import Book from "./Book"
+
+function MemPol() {
+    return (
+        <div>  
+            <Book btitle="The Memory Police" bauthor="Yoko Ogawa" bcover="https://prodimage.images-bn.com/pimages/9781101911815_p0_v2_s1200x630.jpg" 
+            synopsis="On an unnamed island off an unnamed coast, objects are disappearing: first hats, then ribbons, birds, roses—until things become much more serious. Most of the island's inhabitants are oblivious to these changes, while those few imbued with the power to recall the lost objects live in fear of the draconian Memory Police, who are committed to ensuring that what has disappeared remains forgotten. 
+            When a young woman who is struggling to maintain her career as a novelist discovers that her editor is in danger from the Memory Police, she concocts a plan to hide him beneath her floorboards. As fear and loss close in around them, they cling to her writing as the last way of preserving the past.
+            A surreal, provocative fable about the power of memory and the trauma of loss, The Memory Police is a stunning new work from one of the most exciting contemporary authors writing in any language." />
+       </div>
+    );
+}
+export default MemPol;

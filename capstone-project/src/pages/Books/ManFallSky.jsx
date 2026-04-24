@@ -1,0 +1,16 @@
+import Book from "./Book"
+
+function ManFallSky() {
+    return (
+        <div>  
+            <Book btitle="What it Means When a Man Falls From the Sky" bauthor="Lesley Nneka Arimah" bcover="https://m.media-amazon.com/images/I/91K8LzXdaYL._AC_UF1000,1000_QL80_.jpg" 
+            synopsis="A dazzlingly accomplished debut collection explores the ties that bind parents and children, husbands and wives, lovers and friends to one another and to the places they call home.
+In 'Who Will Greet You at Home,' a National Magazine Award finalist for The New Yorker, A woman desperate for a child weaves one out of hair, with unsettling results. In 'Wild,'
+a disastrous night out shifts a teenager and her Nigerian cousin onto uneasy common ground. In 'The Future Looks Good,' three generations of women are haunted by the ghosts of war, while in 'Light,' 
+a father struggles to protect and empower the daughter he loves. And in the title story, in a world ravaged by flood and riven by class, experts have discovered how to 
+fix the equation of a person - with rippling, unforeseen repercussions. Evocative, playful, subversive, and incredibly human, What It Means When a Man Falls from the Sky heralds the arrival of a prodigious talent with a remarkable career ahead of her."
+ />
+       </div>
+    );
+}
+export default ManFallSky;

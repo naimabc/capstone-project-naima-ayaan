@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: ./capstone-project-naima-ayaan
+        working-directory: ./capstone-project
 
 
     steps:
@@ -36,7 +36,7 @@ jobs:
         with:
           node-version: 20
           cache: npm
-          cache-dependency-path: ./capstone-project-naima-ayaan/package-lock.json
+          cache-dependency-path: ./capstone-project/package-lock.json
 
 
       - name: Install dependencies
@@ -54,7 +54,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./capstone-project-naima-ayaan/dist
+          path: ./capstone-project/dist
 
 
   deploy:
@@ -70,4 +70,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-
