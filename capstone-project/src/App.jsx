@@ -9,6 +9,9 @@ import Login from "./pages/Login";
 import MemPol from "./pages/Books/MemPol";
 import JaneEyre from "./pages/Books/JaneEyre";
 import ManFallSky from "./pages/Books/ManFallSky";
+import Slaught5 from "./pages/Books/Slaught5";
+import BigBird from "./pages/Books/BigBird";
+import EyesGod from "./pages/Books/EyesGod";
 
 
 function App() {
@@ -25,9 +28,9 @@ function App() {
             <Link to="/profile">Profile</Link> |{" "}
             <Link to="/quiz">Quiz</Link> |{" "}
             <Link to="/allbooks">Browse Books</Link> |{" "}
-
-          <Link to="/about">About</Link>
+            <Link to="/about">About</Link>
           </nav>
+
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
@@ -37,6 +40,9 @@ function App() {
             <Route path="/Books/mempol" element={<MemPol />}/>
             <Route path="/Books/janeeyre" element={<JaneEyre />}/>
             <Route path="/Books/manfallsky" element={<ManFallSky />}/>
+            <Route path="/Books/slaught5" element={<Slaught5 />}/>
+            <Route path="/Books/bigbird" element={<BigBird />}/>
+            <Route path="/Books/eyesgod" element={<EyesGod />}/>
             <Route path="/quizresults" element={<QuizResults />} />
             <Route path="/about" element={<About />} />
           </Routes>
