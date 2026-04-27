@@ -7,7 +7,7 @@ import Type1 from "../components/archetypes/Type1.jsx";
 import Type2 from "../components/archetypes/Type2.jsx";
 import Type3 from "../components/archetypes/Type3.jsx";
 import Type4 from "../components/archetypes/Type4.jsx";
-import Type5 from "../components/archetypes/Type5.jsx";
+
 
 
 
@@ -25,7 +25,7 @@ function Home() {
                 <Type2/>
                 <Type3/>
                 <Type4/>
-                <Type5/>
+                
                 
             </div>
         </div>
