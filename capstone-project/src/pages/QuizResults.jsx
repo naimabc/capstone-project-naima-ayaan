@@ -19,7 +19,7 @@ function QuizResults() {
       <SomeBooks/>
    </div>
   );
-}jk
+}
 
 
 export default QuizResults;
