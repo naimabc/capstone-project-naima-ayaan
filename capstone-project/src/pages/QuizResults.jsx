@@ -19,7 +19,7 @@ function QuizResults() {
       <Subtitle subtitle="Your recommended books:"/>
 
       <SomeBooks/>
-      <MemPol />
+  
     </div>
   );
 }
