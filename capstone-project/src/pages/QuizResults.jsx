@@ -13,13 +13,13 @@ function QuizResults() {
   return(
     <div>
       <Header title='Results:' subtitle='Your Archetype is the...'/>
-      <Type1/>
+      <Type4/>
       <Subtitle subtitle="Your recommended books:"/>
 
       <SomeBooks/>
    </div>
   );
-}
+}jk
 
 
 export default QuizResults;
