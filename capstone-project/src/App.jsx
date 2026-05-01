@@ -18,7 +18,8 @@ import CoffeeCold from "./pages/Books/CoffeeCold";
 import RichAsians from "./pages/Books/RichAsians";
 import EndersGame from "./pages/Books/EndersGame";
 import SilentPatient from "./pages/Books/SilentPatient";
-
+import MorisakiBook from "./pages/Books/MorisakiBook";
+import PoppyWar from "./pages/Books/PoppyWar";
 
 function App() {
 
@@ -53,6 +54,8 @@ function App() {
             <Route path="/Books/richasians" element={<RichAsians />}/>
             <Route path="/Books/endersgame" element={<EndersGame />}/>
             <Route path="/Books/silentpatient" element={<SilentPatient />}/>
+            <Route path="/Books/morisakibook" element={<MorisakiBook />}/>
+            <Route path="/Books/poppywar" element={<PoppyWar />}/>
             <Route path="/quizresults" element={<QuizResults />} />
             <Route path="/about" element={<About />} />
           </Routes>
