@@ -1,5 +1,5 @@
 import Header from "../components/Header.jsx";
-import SomeBooks from "../components/SomeBooks.jsx";
+import SomeBooks4 from "../components/SomeBooks4.jsx";
 import Subtitle from "../components/Subtitle.jsx";
 import Type1 from "../components/archetypes/Type1.jsx";
 import Type2 from "../components/archetypes/Type2.jsx";
@@ -16,7 +16,7 @@ function QuizResults() {
       <Type4/>
       <Subtitle subtitle="Your recommended books:"/>
 
-      <SomeBooks/>
+      <SomeBooks4/>
    </div>
   );
 }

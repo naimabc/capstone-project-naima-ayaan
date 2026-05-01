@@ -2,7 +2,7 @@
 import BookCardMany from "./BookCardMany.jsx"
 import { Link } from "react-router-dom";
 
-function SomeBooks() {
+function SomeBooks4() {
     return (
         <div class="font-serif text-leaves border rounded-xl p-10 m-10 columns-4 gap-10 max-sm:columns-2">
             
@@ -14,4 +14,4 @@ function SomeBooks() {
         </div>
     );
 }
-export default SomeBooks;
+export default SomeBooks4;

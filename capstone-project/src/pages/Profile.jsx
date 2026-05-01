@@ -1,6 +1,6 @@
 import Header from "../components/Header.jsx";
 import Subtitle from "../components/Subtitle.jsx";
-import SomeBooks from "../components/SomeBooks.jsx";
+import SomeBooks4 from "../components/SomeBooks4.jsx";
 import Type1 from "../components/archetypes/Type1.jsx";
 import Type2 from "../components/archetypes/Type2.jsx";
 import Type3 from "../components/archetypes/Type3.jsx";
@@ -14,7 +14,7 @@ function Profile() {
       <Subtitle subtitle='Your Reading Type:'/>
       <Type4/>
       <Subtitle subtitle='Saved Books:'/>
-      <SomeBooks/>
+      <SomeBooks4/>
 
   </div>
   );
