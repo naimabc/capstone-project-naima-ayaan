@@ -6,15 +6,154 @@ import { useState } from "react";
 
 function Quiz() {
 
+  const [answer1,setAnswer1] = useState("");
+  const [answer2,setAnswer2] = useState("");
+  const [answer3,setAnswer3] = useState("");
+  const [score,setScore] = useState(0);
+
+  function handleSubmit(event){
+    event.preventDefault();
+    //QUESTION 1
+    let count1 = 0;
+    if(answer1 == "type1"){
+      count1++;
+    }
+    let count2 = 0;
+    if(answer1 == "type2"){
+      count2++;
+    }
+    let count3 = 0;
+    if(answer1 == "type3"){
+      count3++;
+    }
+    let count4 = 0;
+    if(answer1 == "type4"){
+      count4++;
+    }
+
+    //QUESTION 2
+    if(answer2 == "type1"){
+      count1++;
+    }
+    if(answer2 == "type2"){
+      count2++;
+    }
+    if(answer2 == "type3"){
+      count3++;
+    }
+    if(answer2 == "type4"){
+      count4++;
+    }
+
+    //QUESTION 3
+    if(answer3 == "type1"){
+      count1++;
+    }
+    if(answer3 == "type2"){
+      count2++;
+    }
+    if(answer3 == "type3"){
+      count3++;
+    }
+    if(answer3 == "type4"){
+      count4++;
+    }
+  }
+
   return(
     <div>
       <Header title='Quiz' subtitle='What Archetype Are You?'/>
-      <QuizQuestion question='Which of the following stories sounds the most interesting?' option1='A courageous hero goes on a high-stakes mission to infiltrate a supervillain’s headquarters before the city is destroyed, culminating in a suspenseful final battle' option2='A poet struggles with finding purpose following the death of a loved one—told through a series of fragmented journal entries' option3='A woman forms a heartwarming friendship with a sick animal at her local zoo, nurturing it as it heals' option4='A man discovers his reality is not what it seems as he begins to realize he is stuck in a time loop'/>
+      <form onSubmit={(handleSubmit)}>
+        <p>Question 1</p>
+          <label>
+           <input type="radio" name="q1" value="type1" 
+           onChange = {(event) => setAnswer1(type1)}
+           checked = {answer1 === "type1"}
+           /> type 1
+          </label>
+          <label>
+           <input type="radio" name="q1" value="type2" 
+           onChange = {(event) => setAnswer1(type2)}
+           checked = {answer1 === "type2"}
+           />type 2
+          </label>
+          <label>
+           <input type="radio" name="q1" value="type3" 
+           onChange = {(event) => setAnswer1(type3)}
+           checked = {answer1 === "type3"}
+           />type 3
+          </label>
+          <label>
+            <input type="radio" name="q1" value="type4" 
+           onChange = {(event) => setAnswer1(type4)}
+           checked = {answer1 === "type4"}
+           />type 4
+          </label>
+        <br></br>
+        <p>Question 2</p>
+          <label>
+           <input type="radio" name="q2" value="type1" 
+           onChange = {(event) => setAnswer2(type1)}
+           checked = {answer2 === "type1"}
+           />type 1
+          </label>
+          <label>
+           <input type="radio" name="q2" value="type2" 
+           onChange = {(event) => setAnswer2(type2)}
+           checked = {answer2 === "type2"}
+           />type 2
+          </label>
+          <label>
+           <input type="radio" name="q2" value="type3" 
+           onChange = {(event) => setAnswer2(type3)}
+           checked = {answer2 === "type3"}
+           />type 3
+          </label>
+          <label>
+           <input type="radio" name="q2" value="type4" 
+           onChange = {(event) => setAnswer2(type4)}
+           checked = {answer2 === "type4"}
+           />type 4
+          </label>
+        <br></br>
+        <p>Question 3</p>
+          <label>
+           <input type="radio" name="q3" value="type1" 
+           onChange = {(event) => setAnswer3(type1)}
+           checked = {answer3 === "type1"}
+           />type 1
+          </label>
+          <label>
+           <input type="radio" name="q3" value="type2" 
+           onChange = {(event) => setAnswer3(type2)}
+           checked = {answer3 === "type2"}
+           />type 2
+          </label>
+          <label>
+           <input type="radio" name="q3" value="type3" 
+           onChange = {(event) => setAnswer3(type3)}
+           checked = {answer3 === "type3"}
+           />type 3
+          </label>
+          <label>
+            <input type="radio" name="q3" value="type4"
+            onChange = {(event) => setAnswer3(type4)}
+            checked = {answer3 === "type4"}/>type 4
+          </label>
+        
+        <br></br>
+
+        <input type="submit" value="see results"/>
+      </form>
+
+      {}
+
+      {/* <QuizQuestion answer={answer} setAnswer={setAnswer} question='Which of the following stories sounds the most interesting?' option1='A courageous hero goes on a high-stakes mission to infiltrate a supervillain’s headquarters before the city is destroyed, culminating in a suspenseful final battle' option2='A poet struggles with finding purpose following the death of a loved one—told through a series of fragmented journal entries' option3='A woman forms a heartwarming friendship with a sick animal at her local zoo, nurturing it as it heals' option4='A man discovers his reality is not what it seems as he begins to realize he is stuck in a time loop'/>
       <QuizQuestion question='When you pick up a book, what are you hoping to find inside its pages?' option1='High-stakes suspense—you want something entertaining that will keep you on your toes' option2='Philosophical and emotional depth—you want to explore the mysteries of the universe and the human experience' option3='Optimistic and uplifting stories—you want to escape from the stress of daily life' option4='Norm-defying narratives—you want something original that challenges how you see the world'/>
-      <QuizQuestion question='What is your preferred type of narrative voice?' option1='Event-focused and action-oriented—without wasting too much time on descriptions or characters’ thoughts and emotions' option2='Poetic, lyrical prose—you don’t mind abstract language or philosophical tangents' option3='Simple and easy to read—you want reading to be relaxing, and you don’t want to have to decipher the story' option4='Unreliable or unconventional narration—you want your perspective to be challenged'/>
+      <QuizQuestion question='What is your preferred type of narrative voice?' option1='Event-focused and action-oriented—without wasting too much time on descriptions or characters’ thoughts and emotions' option2='Poetic, lyrical prose—you don’t mind abstract language or philosophical tangents' option3='Simple and easy to read—you want reading to be relaxing, and you don’t want to have to decipher the story' option4='Unreliable or unconventional narration—you want your perspective to be challenged'/> */}
       
       
-      <Link to="/quizresults"><QuizButton title='See Results'/></Link>
+      {/* <Link to="/QuizResults"><QuizButton title='See Results'/></Link> */}
     </div>
   );
 }

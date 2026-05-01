@@ -1,6 +1,6 @@
 import Subtitle from '../components/Subtitle';
 
-function QuizQuestion({question,option1,option2,option3,option4}) {
+function QuizQuestion({question,option1,option2,option3,option4, answer,setAnswer}) {
     return (
       <div class="border rounded-xl m-20 p-10 object-center max-w-xl mx-auto font-serif text-leaves">
         <p>
@@ -8,7 +8,12 @@ function QuizQuestion({question,option1,option2,option3,option4}) {
           <br></br>
           <br></br>
           <label>
-            <input type="radio" name="myRadio" value={option1} class="accent-sage"/>
+            <input 
+            type="radio" 
+            name="myRadio" 
+            value={option1} 
+            class="accent-sage"
+            onChange={(event)=>(setAnswer(option1))}/>
             {option1}
           </label>
           <br></br>
