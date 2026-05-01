@@ -8,8 +8,8 @@ function SomeBooks2() {
             
             <Link to="/Books/eyesgod"><BookCardMany cover="https://m.media-amazon.com/images/I/71YvIyTP6fL._AC_UF1000,1000_QL80_.jpg" title="Their Eyes Were Watching God" author="Zora Neale Hurston"/></Link>
             <Link to="/Books/onearth"><BookCardMany cover="https://m.media-amazon.com/images/I/81sSWzjCftL._AC_UF1000,1000_QL80_.jpg" title="On Earth We're Briefly Gorgeous" author="Ocean Vuong"/></Link>
-            <Link to="/Books/slaught5"><BookCardMany cover="https://m.media-amazon.com/images/I/71Q0c9qf-1L._AC_UF1000,1000_QL80_.jpg" title="Slaughterhouse-Five" author="Kurt Vonnegut"/></Link>
-            <Link to="/Books/bigbird"><BookCardMany cover="https://m.media-amazon.com/images/I/71Rd-R7WcqL._UF1000,1000_QL80_.jpg" title="Under the Eye of the Big Bird" author="Hiromi Kawakami"/></Link>
+            <Link to="/Books/outline"><BookCardMany cover="https://m.media-amazon.com/images/I/710ueOT0rWL._AC_UF1000,1000_QL80_.jpg" title="Outline" author="Rachel Cusk"/></Link>
+            <Link to="/Books/aguaviva"><BookCardMany cover="https://m.media-amazon.com/images/I/91MCFflhpPL._UF1000,1000_QL80_.jpg" title="Agua Viva" author="Clarice Lispector"/></Link>
 
         </div>
     );
