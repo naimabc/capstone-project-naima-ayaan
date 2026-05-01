@@ -7,7 +7,7 @@ import AllBooks from "./pages/AllBooks";
 import QuizResults from "./pages/QuizResults";
 import Login from "./pages/Login";
 import MemPol from "./pages/Books/MemPol";
-import JaneEyre from "./pages/Books/JaneEyre";
+import OnEarth from "./pages/Books/OnEarth";
 import ManFallSky from "./pages/Books/ManFallSky";
 import Slaught5 from "./pages/Books/Slaught5";
 import BigBird from "./pages/Books/BigBird";
@@ -38,7 +38,7 @@ function App() {
             <Route path="/quiz" element={<Quiz />}/>
             <Route path="/allbooks" element={<AllBooks />}/>
             <Route path="/Books/mempol" element={<MemPol />}/>
-            <Route path="/Books/janeeyre" element={<JaneEyre />}/>
+            <Route path="/Books/onearth" element={<OnEarth />}/>
             <Route path="/Books/manfallsky" element={<ManFallSky />}/>
             <Route path="/Books/slaught5" element={<Slaught5 />}/>
             <Route path="/Books/bigbird" element={<BigBird />}/>
