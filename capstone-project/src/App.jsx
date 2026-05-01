@@ -14,6 +14,7 @@ import BigBird from "./pages/Books/BigBird";
 import EyesGod from "./pages/Books/EyesGod";
 import Outline from "./pages/Books/Outline";
 import AguaViva from "./pages/Books/AguaViva";
+import CoffeeCold from "./pages/Books/CoffeeCold";
 
 
 
@@ -48,6 +49,7 @@ function App() {
             <Route path="/Books/outline" element={<Outline />}/>
             <Route path="/Books/eyesgod" element={<EyesGod />}/>
             <Route path="/Books/aguaviva" element={<AguaViva />}/>
+           <Route path="/Books/coffeecold" element={<CoffeeCold />}/>
             <Route path="/quizresults" element={<QuizResults />} />
             <Route path="/about" element={<About />} />
           </Routes>
