@@ -12,6 +12,8 @@ import ManFallSky from "./pages/Books/ManFallSky";
 import Slaught5 from "./pages/Books/Slaught5";
 import BigBird from "./pages/Books/BigBird";
 import EyesGod from "./pages/Books/EyesGod";
+import Outline from "./pages/Books/Outline";
+
 
 
 function App() {
@@ -42,6 +44,7 @@ function App() {
             <Route path="/Books/manfallsky" element={<ManFallSky />}/>
             <Route path="/Books/slaught5" element={<Slaught5 />}/>
             <Route path="/Books/bigbird" element={<BigBird />}/>
+            <Route path="/Books/outline" element={<Outline />}/>
             <Route path="/Books/eyesgod" element={<EyesGod />}/>
             <Route path="/quizresults" element={<QuizResults />} />
             <Route path="/about" element={<About />} />
