@@ -13,7 +13,7 @@ function QuizQuestion({question,option1,option2,option3,option4, answer,setAnswe
             name="myRadio" 
             value={option1} 
             class="accent-sage"
-            onChange={(event)=>(setAnswer(option1))}/>
+            />
             {option1}
           </label>
           <br></br>
