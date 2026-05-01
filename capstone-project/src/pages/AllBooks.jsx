@@ -18,7 +18,7 @@ function AllBooks() {
             <Link to="/Books/aguaviva"><BookCardMany cover="https://m.media-amazon.com/images/I/91MCFflhpPL._UF1000,1000_QL80_.jpg" title="Agua Viva" author="Clarice Lispector"/></Link>
             <Link to="/Books/bigbird"><BookCardMany cover="https://m.media-amazon.com/images/I/71Rd-R7WcqL._UF1000,1000_QL80_.jpg" title="Under the Eye of the Big Bird" author="Hiromi Kawakami"/></Link>
             <Link to="/Books/coffeecold"><BookCardMany cover="https://m.media-amazon.com/images/I/81XuBDUvMaL._AC_UF1000,1000_QL80_.jpg" title="Before the Coffee Gets Cold" author="Toshikazu Kawaguchi"/></Link>
-            <Link to="/Books/bigbird"><BookCardMany cover="https://m.media-amazon.com/images/I/71Rd-R7WcqL._UF1000,1000_QL80_.jpg" title="Under the Eye of the Big Bird" author="Hiromi Kawakami"/></Link>
+            <Link to="/Books/richasians"><BookCardMany cover="https://m.media-amazon.com/images/I/71qzZ9tf+AL._AC_UF1000,1000_QL80_.jpg" title="Crazy Rich Asians" author="Kevin Kwan"/></Link>
             <Link to="/Books/bigbird"><BookCardMany cover="https://m.media-amazon.com/images/I/71Rd-R7WcqL._UF1000,1000_QL80_.jpg" title="Under the Eye of the Big Bird" author="Hiromi Kawakami"/></Link>
             <Link to="/Books/bigbird"><BookCardMany cover="https://m.media-amazon.com/images/I/71Rd-R7WcqL._UF1000,1000_QL80_.jpg" title="Under the Eye of the Big Bird" author="Hiromi Kawakami"/></Link>
             <Link to="/Books/eyesgod"><BookCardMany cover="https://m.media-amazon.com/images/I/71YvIyTP6fL._AC_UF1000,1000_QL80_.jpg" title="Their Eyes Were Watching God" author="Zora Neale Hurston"/></Link>
