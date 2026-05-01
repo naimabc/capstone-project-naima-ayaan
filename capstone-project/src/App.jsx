@@ -20,6 +20,8 @@ import EndersGame from "./pages/Books/EndersGame";
 import SilentPatient from "./pages/Books/SilentPatient";
 import MorisakiBook from "./pages/Books/MorisakiBook";
 import PoppyWar from "./pages/Books/PoppyWar";
+import BrightCreatures from "./pages/Books/BrightCreatures";
+import HungerGames from "./pages/Books/HungerGames";
 
 function App() {
 
@@ -56,6 +58,8 @@ function App() {
             <Route path="/Books/silentpatient" element={<SilentPatient />}/>
             <Route path="/Books/morisakibook" element={<MorisakiBook />}/>
             <Route path="/Books/poppywar" element={<PoppyWar />}/>
+            <Route path="/Books/brightcreatures" element={<BrightCreatures />}/>
+            <Route path="/Books/hungergames" element={<HungerGames />}/>
             <Route path="/quizresults" element={<QuizResults />} />
             <Route path="/about" element={<About />} />
           </Routes>

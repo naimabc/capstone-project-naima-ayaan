@@ -23,8 +23,8 @@ function AllBooks() {
             <Link to="/Books/silentpatient"><BookCardMany cover="https://m.media-amazon.com/images/I/91lslnZ-btL._AC_UF1000,1000_QL80_.jpg" title="The Silent Patient" author="Alex Michaelides"/></Link>
             <Link to="/Books/poppywar"><BookCardMany cover="https://m.media-amazon.com/images/I/71N+1tUQeoL._AC_UF1000,1000_QL80_.jpg" title="The Poppy War" author="R.F. Kuang"/></Link>
             <Link to="/Books/morisakibook"><BookCardMany cover="https://m.media-amazon.com/images/I/91IoQbOhRlL._AC_UF1000,1000_QL80_.jpg" title="Days at the Morisaki Bookshop" author="Satoshi Yagisawa"/></Link>
-            <Link to="/Books/bigbird"><BookCardMany cover="https://m.media-amazon.com/images/I/71Rd-R7WcqL._UF1000,1000_QL80_.jpg" title="Under the Eye of the Big Bird" author="Hiromi Kawakami"/></Link>
-            <Link to="/Books/bigbird"><BookCardMany cover="https://m.media-amazon.com/images/I/71Rd-R7WcqL._UF1000,1000_QL80_.jpg" title="Under the Eye of the Big Bird" author="Hiromi Kawakami"/></Link>
+            <Link to="/Books/brightcreatures"><BookCardMany cover="https://m.media-amazon.com/images/I/81X7rAcaQkL._AC_UF1000,1000_QL80_.jpg" title="Remarkably Bright Creatures" author="Shelby Van Pelt"/></Link>
+            <Link to="/Books/hungergames"><BookCardMany cover="https://m.media-amazon.com/images/I/71un2hI4mcL._AC_UF1000,1000_QL80_.jpg" title="The Hunger Games" author="Suzanne Collins"/></Link>
             </div>
         </>
   );
