@@ -22,6 +22,7 @@ import MorisakiBook from "./pages/Books/MorisakiBook";
 import PoppyWar from "./pages/Books/PoppyWar";
 import BrightCreatures from "./pages/Books/BrightCreatures";
 import HungerGames from "./pages/Books/HungerGames";
+import Search from "./pages/Search";
 
 function App() {
 
@@ -35,7 +36,8 @@ function App() {
             <Link to="/profile">Profile</Link> |{" "}
             <Link to="/quiz">Quiz</Link> |{" "}
             <Link to="/allbooks">Browse Books</Link> |{" "}
-            <Link to="/about">About</Link>
+            <Link to="/about">About</Link> |{" "}
+            <Link to="/search">Search</Link> 
           </nav>
 
           <Routes>
@@ -43,6 +45,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/quiz" element={<Quiz />}/>
+            <Route path="/search" element={<Search />}/>
             <Route path="/allbooks" element={<AllBooks />}/>
             <Route path="/Books/mempol" element={<MemPol />}/>
             <Route path="/Books/onearth" element={<OnEarth />}/>
