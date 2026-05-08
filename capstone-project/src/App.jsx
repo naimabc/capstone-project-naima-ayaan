@@ -3,7 +3,6 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Quiz from "./pages/Quiz";
-import AllBooks from "./pages/AllBooks";
 import QuizResults from "./pages/QuizResults";
 import Login from "./pages/Login";
 import MemPol from "./pages/Books/MemPol";
@@ -35,9 +34,8 @@ function App() {
             <Link to="/login">Login</Link> |{" "}
             <Link to="/profile">Profile</Link> |{" "}
             <Link to="/quiz">Quiz</Link> |{" "}
-            <Link to="/allbooks">Browse Books</Link> |{" "}
-            <Link to="/about">About</Link> |{" "}
-            <Link to="/search">Search</Link> 
+            <Link to="/search">Browse Books</Link> |{" "}
+            <Link to="/about">About</Link>
           </nav>
 
           <Routes>
@@ -46,7 +44,6 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/quiz" element={<Quiz />}/>
             <Route path="/search" element={<Search />}/>
-            <Route path="/allbooks" element={<AllBooks />}/>
             <Route path="/Books/mempol" element={<MemPol />}/>
             <Route path="/Books/onearth" element={<OnEarth />}/>
             <Route path="/Books/manfallsky" element={<ManFallSky />}/>
