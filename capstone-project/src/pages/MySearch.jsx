@@ -36,6 +36,7 @@ function MySearch() {
         <div className="grid grid-cols-12 gap-y-5">
             <div className="translate-x-5">
                 <select
+                    className="border rounded border-nature"
                     class="select"
                     defaultValue="all"
                     value={search}
