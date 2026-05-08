@@ -37,7 +37,7 @@ function MySearch() {
             <div className="translate-x-5">
                 <select
                     className="border rounded border-nature"
-                    class="select"
+                    class="select border rounded border-nature"
                     defaultValue="all"
                     value={search}
                     onChange={(event) => setSearch(event.target.value)}

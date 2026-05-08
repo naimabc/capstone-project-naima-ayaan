@@ -61,7 +61,7 @@ function Quiz() {
   }
 
   return (
-    <div>
+    <div className="accent-sage">
       <Header title='Quiz' subtitle='What Archetype Are You?' />
       <form onSubmit={(handleSubmit)}>
         <p>Which of the following stories sounds the most interesting?</p>
