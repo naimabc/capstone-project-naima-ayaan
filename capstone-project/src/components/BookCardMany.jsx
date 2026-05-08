@@ -1,6 +1,6 @@
 function BookCardMany({ cover, title, author, value }) {
     return (
-        <div value={value} className="font-serif text-leaves border border-leaves rounded-xl p-3  w-75 h-full">
+        <div value={value} className="inline-block font-serif text-leaves border border-leaves rounded-xl p-3 w-75 h-full">
             <div className="h-135">
                 <img src={cover} className="object-contain" />
                 <br />
