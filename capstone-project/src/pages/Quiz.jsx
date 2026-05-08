@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import Header from "../components/Header.jsx";
 import QuizButton from "../components/QuizButton.jsx";
 import { Link } from "react-router-dom";
@@ -63,81 +64,93 @@ function Quiz() {
     <div>
       <Header title='Quiz' subtitle='What Archetype Are You?' />
       <form onSubmit={(handleSubmit)}>
-        <p>Question 1</p>
+        <p>Which of the following stories sounds the most interesting?</p>
         <label>
           <input type="radio" name="q1" id="q1" value="type1"
             onChange={(event) => setAnswer1("type1")}
             checked={answer1 === "type1"}
-          /> type 1
+          /> A courageous hero goes on a high-stakes mission to infiltrate a supervillain’s headquarters before the city is destroyed, culminating in a suspenseful final battle
         </label>
+        <br/>
         <label>
           <input type="radio" name="q1" id="q1" value="type2"
             onChange={(event) => setAnswer1("type2")}
             checked={answer1 === "type2"}
-          />type 2
+          />A poet struggles with finding purpose following the death of a loved one—told through a series of fragmented journal entries
         </label>
+        <br/>
         <label>
           <input type="radio" name="q1" id="q1" value="type3"
             onChange={(event) => setAnswer1("type3")}
             checked={answer1 === "type3"}
-          />type 3
+          />A woman forms a heartwarming friendship with a sick animal at her local zoo, nurturing it as it heals
         </label>
+        <br/>
         <label>
           <input type="radio" name="q1" id="q1" value="type4"
             onChange={(event) => setAnswer1("type4")}
             checked={answer1 === "type4"}
-          />type 4
+          />A man discovers his reality is not what it seems as he begins to realize he is stuck in a time loop
         </label>
         <br></br>
-        <p>Question 2</p>
+        <br/>
+        <p>When you pick up a book, what are you hoping to find inside its pages?</p>
         <label>
           <input type="radio" name="q2" value="type1"
             onChange={(event) => setAnswer2("type1")}
             checked={answer2 === "type1"}
-          />type 1
+          />High-stakes suspense—you want something entertaining that will keep you on your toes
         </label>
+        <br/>
         <label>
           <input type="radio" name="q2" value="type2"
             onChange={(event) => setAnswer2("type2")}
             checked={answer2 === "type2"}
-          />type 2
+          />Philosophical and emotional depth—you want to explore the mysteries of the universe and the human experience
         </label>
+        <br/>
         <label>
           <input type="radio" name="q2" value="type3"
             onChange={(event) => setAnswer2("type3")}
             checked={answer2 === "type3"}
-          />type 3
+          />Optimistic and uplifting stories—you want to escape from the stress of daily life
         </label>
+        <br/>
         <label>
           <input type="radio" name="q2" value="type4"
             onChange={(event) => setAnswer2("type4")}
             checked={answer2 === "type4"}
-          />type 4
+          />Norm-defying narratives—you want something original that challenges how you see the world
         </label>
+        <br/>
         <br></br>
-        <p>Question 3</p>
+        <p>What is your preferred type of narrative voice?</p>
         <label>
           <input type="radio" name="q3" value="type1"
             onChange={(event) => setAnswer3("type1")}
             checked={answer3 === "type1"}
-          />type 1
+          />Event-focused and action-oriented—without wasting too much time on descriptions or characters’ thoughts and emotions
         </label>
+        <br/>
         <label>
           <input type="radio" name="q3" value="type2"
             onChange={(event) => setAnswer3("type2")}
             checked={answer3 === "type2"}
-          />type 2
+          />Poetic, lyrical prose—you don’t mind abstract language or philosophical tangents
         </label>
+        <br/>
         <label>
           <input type="radio" name="q3" value="type3"
             onChange={(event) => setAnswer3("type3")}
             checked={answer3 === "type3"}
-          />type 3
+          />Simple and easy to read—you want reading to be relaxing, and you don’t want to have to decipher the story
         </label>
+        <br/>
         <label>
           <input type="radio" name="q3" value="type4"
             onChange={(event) => setAnswer3("type4")}
-            checked={answer3 === "type4"} />type 4
+            checked={answer3 === "type4"} 
+            />Unreliable or unconventional narration—you want your perspective to be challenged
         </label>
 
         <br></br>
