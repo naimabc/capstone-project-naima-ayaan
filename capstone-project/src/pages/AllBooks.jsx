@@ -8,7 +8,7 @@ function AllBooks() {
      <>
             <Header title='Browse All Books!' subtitle='Our Complete Library'/>
             <FilterButton title="Filter"/>
-            <div className="font-serif text-leaves border rounded-xl p-10 m-10 columns-4 gap-10 max-sm:columns-2">
+            <div className="font-serif text-leaves columns-4 gap-10 max-sm:columns-2">
             <Link to="/Books/OnEarth"><BookCardMany cover="https://m.media-amazon.com/images/I/81sSWzjCftL._AC_UF1000,1000_QL80_.jpg" title="On Earth We're Briefly Gorgeous" author="Ocean Vuong" value="Poetry"/></Link>
             <Link to="/Books/manfallsky"><BookCardMany cover="https://m.media-amazon.com/images/I/91K8LzXdaYL._AC_UF1000,1000_QL80_.jpg" title="What it Means When a Man Falls From the Sky" author="Lesley Nneka Arimah" value="Contemporary"/></Link>
             <Link to="/Books/slaught5"><BookCardMany cover="https://m.media-amazon.com/images/I/71Q0c9qf-1L._AC_UF1000,1000_QL80_.jpg" title="Slaughterhouse-Five" author="Kurt Vonnegut" value="Dystopia"/></Link>
