@@ -61,10 +61,10 @@ function Quiz() {
   }
 
   return (
-    <div className="accent-sage">
+    <div className="accent-sage text-leaves font-serif">
       <Header title='Quiz' subtitle='What Archetype Are You?' />
       <form onSubmit={(handleSubmit)}>
-        <p>Which of the following stories sounds the most interesting?</p>
+        <p className="text-lg font-bold">Which of the following stories sounds the most interesting?</p>
         <label>
           <input type="radio" name="q1" id="q1" value="type1"
             onChange={(event) => setAnswer1("type1")}
@@ -94,7 +94,7 @@ function Quiz() {
         </label>
         <br></br>
         <br/>
-        <p>When you pick up a book, what are you hoping to find inside its pages?</p>
+        <p className="text-lg font-bold">When you pick up a book, what are you hoping to find inside its pages?</p>
         <label>
           <input type="radio" name="q2" value="type1"
             onChange={(event) => setAnswer2("type1")}
@@ -124,7 +124,7 @@ function Quiz() {
         </label>
         <br/>
         <br></br>
-        <p>What is your preferred type of narrative voice?</p>
+        <p className="text-lg font-bold">What is your preferred type of narrative voice?</p>
         <label>
           <input type="radio" name="q3" value="type1"
             onChange={(event) => setAnswer3("type1")}
