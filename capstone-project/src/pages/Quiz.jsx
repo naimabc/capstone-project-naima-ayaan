@@ -64,6 +64,7 @@ function Quiz() {
     <div className="accent-sage text-leaves font-serif">
       <Header title='Quiz' subtitle='What Archetype Are You?' />
       <form onSubmit={(handleSubmit)}>
+        <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
         <p className="text-lg font-bold">Which of the following stories sounds the most interesting?</p>
         <label>
           <input type="radio" name="q1" id="q1" value="type1"
@@ -92,8 +93,8 @@ function Quiz() {
             checked={answer1 === "type4"}
           />A man discovers his reality is not what it seems as he begins to realize he is stuck in a time loop
         </label>
-        <br></br>
-        <br/>
+        </div>
+        <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
         <p className="text-lg font-bold">When you pick up a book, what are you hoping to find inside its pages?</p>
         <label>
           <input type="radio" name="q2" value="type1"
@@ -122,8 +123,8 @@ function Quiz() {
             checked={answer2 === "type4"}
           />Norm-defying narratives—you want something original that challenges how you see the world
         </label>
-        <br/>
-        <br></br>
+        </div>
+        <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
         <p className="text-lg font-bold">What is your preferred type of narrative voice?</p>
         <label>
           <input type="radio" name="q3" value="type1"
@@ -152,9 +153,7 @@ function Quiz() {
             checked={answer3 === "type4"} 
             />Unreliable or unconventional narration—you want your perspective to be challenged
         </label>
-
-        <br></br>
-
+        </div>
         <input type="submit" value="see results" />
       </form>
 

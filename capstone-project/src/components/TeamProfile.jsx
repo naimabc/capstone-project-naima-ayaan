@@ -4,8 +4,9 @@ function TeamProfile({name, role, bio, image}) {
             <h2 class="text-2xl">{name}:</h2>
             <h5 class="text-lg">Role: {role}</h5>
             <br></br>
-            <img src={image} class="border-double"></img>
+            <img src={image} className="border-double inline-block h-100 rounded-full"></img>
             <br></br>
+            <br/>
             <p >{bio}</p>
        </div>
     );

@@ -10,7 +10,7 @@ import Type4 from "../components/archetypes/Type4.jsx";
 function Profile() {
   return(
     <div>
-      <Header title="Kazi's" subtitle='Profile'/>
+      <Header title="Your" subtitle='Profile'/>
       <Subtitle subtitle='Your Reading Type:'/>
       <Type4/>
       <Subtitle subtitle='Saved Books:'/>
