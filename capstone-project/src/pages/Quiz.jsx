@@ -10,6 +10,8 @@ function Quiz() {
   const [answer1, setAnswer1] = useState("");
   const [answer2, setAnswer2] = useState("");
   const [answer3, setAnswer3] = useState("");
+  const [answer4, setAnswer4] = useState("");
+  const [answer5, setAnswer5] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -64,6 +66,7 @@ function Quiz() {
     <div className="accent-sage text-leaves font-serif">
       <Header title='Quiz' subtitle='What Archetype Are You?' />
       <form onSubmit={(handleSubmit)}>
+        {/* QUESTION 1 */}
         <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
         <p className="text-lg font-bold">Which of the following stories sounds the most interesting?</p>
         <label>
@@ -94,6 +97,8 @@ function Quiz() {
           />A man discovers his reality is not what it seems as he begins to realize he is stuck in a time loop
         </label>
         </div>
+
+        {/* QUESTION 2 */}
         <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
         <p className="text-lg font-bold">When you pick up a book, what are you hoping to find inside its pages?</p>
         <label>
@@ -124,6 +129,8 @@ function Quiz() {
           />Norm-defying narratives—you want something original that challenges how you see the world
         </label>
         </div>
+
+        {/* QUESTION 3 */}
         <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
         <p className="text-lg font-bold">What is your preferred type of narrative voice?</p>
         <label>
@@ -154,7 +161,73 @@ function Quiz() {
             />Unreliable or unconventional narration—you want your perspective to be challenged
         </label>
         </div>
-        <input type="submit" value="see results" />
+
+        {/* QUESTION 4 */}
+        <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
+        <p className="text-lg font-bold">What kind of ending would satisfy you most?</p>
+        <label>
+          <input type="radio" name="q4" value="type1"
+            onChange={(event) => setAnswer4("type1")}
+            checked={answer4 === "type1"}
+          />An epic final battle ending in triumph
+        </label>
+        <br/>
+        <label>
+          <input type="radio" name="q4" value="type2"
+            onChange={(event) => setAnswer4("type2")}
+            checked={answer4 === "type2"}
+          />A deeply introspective realization
+        </label>
+        <br/>
+        <label>
+          <input type="radio" name="q4" value="type3"
+            onChange={(event) => setAnswer4("type3")}
+            checked={answer4 === "type3"}
+          />A heartwarming ending where all conflict is resolved
+        </label>
+        <br/>
+        <label>
+          <input type="radio" name="q4" value="type4"
+            onChange={(event) => setAnswer4("type4")}
+            checked={answer4 === "type4"} 
+            />An ambiguous ending that leaves you with lingering questions
+        </label>
+        </div>
+
+        {/* QUESTION 5 */}
+        <div className="border rounded-xl m-20 p-10 object-center max-w-3xl mx-auto">
+        <p className="text-lg font-bold">Which of these is your favorite color?</p>
+        <label>
+          <input type="radio" name="q5" value="type1"
+            onChange={(event) => setAnswer5("type1")}
+            checked={answer5 === "type1"}
+          />Red
+        </label>
+        <br/>
+        <label>
+          <input type="radio" name="q5" value="type2"
+            onChange={(event) => setAnswer5("type2")}
+            checked={answer5 === "type2"}
+          />Blue
+        </label>
+        <br/>
+        <label>
+          <input type="radio" name="q5" value="type3"
+            onChange={(event) => setAnswer5("type3")}
+            checked={answer5 === "type3"}
+          />Yellow
+        </label>
+        <br/>
+        <label>
+          <input type="radio" name="q5" value="type4"
+            onChange={(event) => setAnswer5("type4")}
+            checked={answer5 === "type4"} 
+            />Purple
+        </label>
+        </div>
+
+
+        {/* <input type="submit" value="see results" /> */}
       </form>
 
       {/* <QuizQuestion answer={answer} setAnswer={setAnswer} question='Which of the following stories sounds the most interesting?' option1='A courageous hero goes on a high-stakes mission to infiltrate a supervillain’s headquarters before the city is destroyed, culminating in a suspenseful final battle' option2='A poet struggles with finding purpose following the death of a loved one—told through a series of fragmented journal entries' option3='A woman forms a heartwarming friendship with a sick animal at her local zoo, nurturing it as it heals' option4='A man discovers his reality is not what it seems as he begins to realize he is stuck in a time loop'/>
