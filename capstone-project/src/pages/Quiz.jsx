@@ -72,21 +72,21 @@ function Quiz() {
             checked={answer1 === "type1"}
           /> A courageous hero goes on a high-stakes mission to infiltrate a supervillain’s headquarters before the city is destroyed, culminating in a suspenseful final battle
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q1" id="q1" value="type2"
             onChange={(event) => setAnswer1("type2")}
             checked={answer1 === "type2"}
           />A poet struggles with finding purpose following the death of a loved one—told through a series of fragmented journal entries
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q1" id="q1" value="type3"
             onChange={(event) => setAnswer1("type3")}
             checked={answer1 === "type3"}
           />A woman forms a heartwarming friendship with a sick animal at her local zoo, nurturing it as it heals
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q1" id="q1" value="type4"
             onChange={(event) => setAnswer1("type4")}
@@ -102,21 +102,21 @@ function Quiz() {
             checked={answer2 === "type1"}
           />High-stakes suspense—you want something entertaining that will keep you on your toes
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q2" value="type2"
             onChange={(event) => setAnswer2("type2")}
             checked={answer2 === "type2"}
           />Philosophical and emotional depth—you want to explore the mysteries of the universe and the human experience
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q2" value="type3"
             onChange={(event) => setAnswer2("type3")}
             checked={answer2 === "type3"}
           />Optimistic and uplifting stories—you want to escape from the stress of daily life
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q2" value="type4"
             onChange={(event) => setAnswer2("type4")}
@@ -132,21 +132,21 @@ function Quiz() {
             checked={answer3 === "type1"}
           />Event-focused and action-oriented—without wasting too much time on descriptions or characters’ thoughts and emotions
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q3" value="type2"
             onChange={(event) => setAnswer3("type2")}
             checked={answer3 === "type2"}
           />Poetic, lyrical prose—you don’t mind abstract language or philosophical tangents
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q3" value="type3"
             onChange={(event) => setAnswer3("type3")}
             checked={answer3 === "type3"}
           />Simple and easy to read—you want reading to be relaxing, and you don’t want to have to decipher the story
         </label>
-        <br/>
+        <br/><br/>
         <label>
           <input type="radio" name="q3" value="type4"
             onChange={(event) => setAnswer3("type4")}
