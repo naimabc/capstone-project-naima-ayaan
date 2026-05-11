@@ -12,9 +12,9 @@ function About() {
       <Text subtitle='Our Mission' text="To help solve the literacy crisis by encouraging more people to read. One of the biggest causes of the crisis is people's lack of interest in reading, so we hope to help spark that interest by helping people find books they genuinely enjoy."/>
       <div className="columns-2 gap-5 max-sm:columns-2 translate-y-10 -translate-x-30">
         <div className="-translate-y-20 translate-x-55">
-      <TeamProfile name='Naima Bruckmann-Chang' role='Code Manager' bio='Oakland Tech Senior - Computer Academy' image={Naima}/> 
+      <TeamProfile name='Naima Bruckmann-Chang' role='Project Manager' bio='Oakland Tech Senior - Computer Academy' image={Naima}/> 
       </div>
-      <TeamProfile name='Ayaan Sheth-Lin' role='Project Manager' bio='Oakland Tech Senior - Computer Academy' image={Ayaan}/>
+      <TeamProfile name='Ayaan Sheth-Lin' role='Code Manager' bio='Oakland Tech Senior - Computer Academy' image={Ayaan}/>
       </div>
     </div>
 
