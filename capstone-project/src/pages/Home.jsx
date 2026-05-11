@@ -15,7 +15,7 @@ import Type4 from "../components/archetypes/Type4.jsx";
 function Home() {
     return(
         <div>
-            <Header title='Welcome!!!' subtitle=''/>
+            <Header title='Welcome!' subtitle='Bloom Into Books'/>
             <Link to="/quiz"><QuizButton title="Click to Take Quiz!"/></Link>
             <br></br>
             <br></br>
