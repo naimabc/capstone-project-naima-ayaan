@@ -203,21 +203,21 @@ function Quiz() {
             checked={answer5 === "type1"}
           />Red
         </label>
-        <br/><br/>
+        <br/>
         <label>
           <input type="radio" name="q5" value="type2"
             onChange={(event) => setAnswer5("type2")}
             checked={answer5 === "type2"}
           />Blue
         </label>
-        <br/><br/>
+        <br/>
         <label>
           <input type="radio" name="q5" value="type3"
             onChange={(event) => setAnswer5("type3")}
             checked={answer5 === "type3"}
           />Yellow
         </label>
-        <br/><br/>
+        <br/>
         <label>
           <input type="radio" name="q5" value="type4"
             onChange={(event) => setAnswer5("type4")}
