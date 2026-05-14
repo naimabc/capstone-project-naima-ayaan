@@ -4,6 +4,8 @@ import QuizButton from "../components/QuizButton.jsx";
 import { Link } from "react-router-dom";
 import QuizQuestion from "../components/QuizQuestion.jsx"
 import { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+
 
 function Quiz() {
 
@@ -13,6 +15,8 @@ function Quiz() {
   const [answer4, setAnswer4] = useState("");
   const [answer5, setAnswer5] = useState("");
   const [score,setScore] = useState(0);
+  const navigate = useNavigate();
+  
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -255,13 +259,20 @@ function Quiz() {
         </div>
 
 
-        <input type="submit" value="see results" />
+        <input class="text-center bg-leaves hover:bg-stone rounded-xl p-5 m-5 w-80 inline-block text-xl text-neutral-100 font-serif"
+        type="submit" value="See Results" />
       </form>
 
-      {score !== null && <h2> Your score is {score}/3. </h2>} 
+      
+      {/* {score != null &&  score <= 5 &&  <h2> Your score is {score}/3. </h2>}  */}
+      {score >= 5 && score <= 8 && navigate ("/QuizResults1")}
+      {score >= 9 && score <= 12 && navigate ("/QuizResults2")}
+      {score >= 13 && score <= 16 && navigate ("/QuizResults3")}
+      {score >= 17 && score <= 20 && navigate ("/QuizResults")}
+      
 
-
-      <Link to="/QuizResults"><QuizButton title='See Results' /></Link>
+      
+      {/* <Link to="/QuizResults"><QuizButton title='See Results' /></Link> */}
     </div>
   );
 }

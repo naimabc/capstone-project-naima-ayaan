@@ -6,6 +6,7 @@ import Type4 from "../components/archetypes/Type4.jsx";
 
 
 
+
 function QuizResults() {
   return(
     <div>
