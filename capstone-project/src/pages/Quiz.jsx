@@ -12,54 +12,82 @@ function Quiz() {
   const [answer3, setAnswer3] = useState("");
   const [answer4, setAnswer4] = useState("");
   const [answer5, setAnswer5] = useState("");
+  const [score,setScore] = useState(0);
 
   function handleSubmit(event) {
     event.preventDefault();
+    let count = 0;
     //QUESTION 1
-    let count1 = 0;
     if (answer1 == "type1") {
-      count1++;
+      count++;
     }
-    let count2 = 0;
     if (answer1 == "type2") {
-      count2++;
+      count+=2;
     }
-    let count3 = 0;
     if (answer1 == "type3") {
-      count3++;
+      count+=3;
     }
-    let count4 = 0;
     if (answer1 == "type4") {
-      count4++;
+      count+=4;
     }
 
     //QUESTION 2
     if (answer2 == "type1") {
-      count1++;
+      count++;
     }
     if (answer2 == "type2") {
-      count2++;
+      count+=2;
     }
     if (answer2 == "type3") {
-      count3++;
+      count+=3;
     }
     if (answer2 == "type4") {
-      count4++;
+      count+=4;
     }
 
     //QUESTION 3
     if (answer3 == "type1") {
-      count1++;
+      count++;
     }
     if (answer3 == "type2") {
-      count2++;
+      count+=2;
     }
     if (answer3 == "type3") {
-      count3++;
+      count+=3;
     }
     if (answer3 == "type4") {
-      count4++;
+      count+=4;
     }
+
+    //QUESTION 4
+    if (answer4 == "type1") {
+      count++;
+    }
+    if (answer4 == "type2") {
+      count+=2;
+    }
+    if (answer4 == "type3") {
+      count+=3;
+    }
+    if (answer4 == "type4") {
+      count+=4;
+    }
+
+    //QUESTION 5
+    if (answer5 == "type1") {
+      count++;
+    }
+    if (answer5 == "type2") {
+      count+=2;
+    }
+    if (answer5 == "type3") {
+      count+=3;
+    }
+    if (answer5 == "type4") {
+      count+=4;
+    }
+
+    setScore(count);
   }
 
   return (
@@ -227,12 +255,10 @@ function Quiz() {
         </div>
 
 
-        {/* <input type="submit" value="see results" /> */}
+        <input type="submit" value="see results" />
       </form>
 
-      {/* <QuizQuestion answer={answer} setAnswer={setAnswer} question='Which of the following stories sounds the most interesting?' option1='A courageous hero goes on a high-stakes mission to infiltrate a supervillain’s headquarters before the city is destroyed, culminating in a suspenseful final battle' option2='A poet struggles with finding purpose following the death of a loved one—told through a series of fragmented journal entries' option3='A woman forms a heartwarming friendship with a sick animal at her local zoo, nurturing it as it heals' option4='A man discovers his reality is not what it seems as he begins to realize he is stuck in a time loop'/>
-      <QuizQuestion question='When you pick up a book, what are you hoping to find inside its pages?' option1='High-stakes suspense—you want something entertaining that will keep you on your toes' option2='Philosophical and emotional depth—you want to explore the mysteries of the universe and the human experience' option3='Optimistic and uplifting stories—you want to escape from the stress of daily life' option4='Norm-defying narratives—you want something original that challenges how you see the world'/>
-      <QuizQuestion question='What is your preferred type of narrative voice?' option1='Event-focused and action-oriented—without wasting too much time on descriptions or characters’ thoughts and emotions' option2='Poetic, lyrical prose—you don’t mind abstract language or philosophical tangents' option3='Simple and easy to read—you want reading to be relaxing, and you don’t want to have to decipher the story' option4='Unreliable or unconventional narration—you want your perspective to be challenged'/> */}
+      {score !== null && <h2> Your score is {score}/3. </h2>} 
 
 
       <Link to="/QuizResults"><QuizButton title='See Results' /></Link>
