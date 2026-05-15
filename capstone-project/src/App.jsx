@@ -3,7 +3,10 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Quiz from "./pages/Quiz";
-import QuizResults from "./pages/QuizResults";
+import QuizResults1 from "./pages/QuizResults1";
+import QuizResults2 from "./pages/QuizResults2";
+import QuizResults3 from "./pages/QuizResults3";
+import QuizResults4 from "./pages/QuizResults4";
 import Login from "./pages/Login";
 import MemPol from "./pages/Books/MemPol";
 import OnEarth from "./pages/Books/OnEarth";
@@ -22,6 +25,7 @@ import PoppyWar from "./pages/Books/PoppyWar";
 import BrightCreatures from "./pages/Books/BrightCreatures";
 import HungerGames from "./pages/Books/HungerGames";
 import Search from "./pages/Search";
+
 
 function App() {
 
@@ -52,7 +56,7 @@ function App() {
             <Route path="/Books/outline" element={<Outline />}/>
             <Route path="/Books/eyesgod" element={<EyesGod />}/>
             <Route path="/Books/aguaviva" element={<AguaViva />}/>
-           <Route path="/Books/coffeecold" element={<CoffeeCold />}/>
+            <Route path="/Books/coffeecold" element={<CoffeeCold />}/>
             <Route path="/Books/richasians" element={<RichAsians />}/>
             <Route path="/Books/endersgame" element={<EndersGame />}/>
             <Route path="/Books/silentpatient" element={<SilentPatient />}/>
@@ -60,7 +64,10 @@ function App() {
             <Route path="/Books/poppywar" element={<PoppyWar />}/>
             <Route path="/Books/brightcreatures" element={<BrightCreatures />}/>
             <Route path="/Books/hungergames" element={<HungerGames />}/>
-            <Route path="/quizresults" element={<QuizResults />} />
+            <Route path="/quizresults1" element={<QuizResults1 />} />
+            <Route path="/quizresults2" element={<QuizResults2 />} />
+            <Route path="/quizresults3" element={<QuizResults3 />} />
+            <Route path="/quizresults4" element={<QuizResults4 />} />
             <Route path="/about" element={<About />} />
           </Routes>
         </BrowserRouter>

@@ -20,78 +20,94 @@ function Quiz() {
 
   function handleSubmit(event) {
     event.preventDefault();
-    let count = 0;
+    let count1 = 0;
+    let count2 = 0;
+    let count3 = 0;
+    let count4 = 0;
+
     //QUESTION 1
     if (answer1 == "type1") {
-      count++;
+      count1++;
     }
     if (answer1 == "type2") {
-      count+=2;
+      count2++;
     }
     if (answer1 == "type3") {
-      count+=3;
+      count3++;
     }
     if (answer1 == "type4") {
-      count+=4;
+      count4++;
     }
 
     //QUESTION 2
     if (answer2 == "type1") {
-      count++;
+      count1++;
     }
     if (answer2 == "type2") {
-      count+=2;
+      count2++;
     }
     if (answer2 == "type3") {
-      count+=3;
+      count3++;
     }
     if (answer2 == "type4") {
-      count+=4;
+      count4++;
     }
 
     //QUESTION 3
     if (answer3 == "type1") {
-      count++;
+      count1++;
     }
     if (answer3 == "type2") {
-      count+=2;
+      count2++;
     }
     if (answer3 == "type3") {
-      count+=3;
+      count3++;
     }
     if (answer3 == "type4") {
-      count+=4;
+      count4++;
     }
 
     //QUESTION 4
     if (answer4 == "type1") {
-      count++;
+      count1++;
     }
     if (answer4 == "type2") {
-      count+=2;
+      count2++;
     }
     if (answer4 == "type3") {
-      count+=3;
+      count3++;
     }
     if (answer4 == "type4") {
-      count+=4;
+      count4++;
     }
 
     //QUESTION 5
     if (answer5 == "type1") {
-      count++;
+      count1++;
     }
     if (answer5 == "type2") {
-      count+=2;
+      count2++;
     }
     if (answer5 == "type3") {
-      count+=3;
+      count3++;
     }
     if (answer5 == "type4") {
-      count+=4;
+      count4++;
     }
 
-    setScore(count);
+    if (count1 >= count2 && count1 >= count3 && count1 >= count4) {
+      setScore("type1");
+    }
+    else if (count2 >= count3 && count2 >= count4){
+      setScore("type2")
+    }
+    else if (count3 >= count4){
+      setScore("type3")
+    }
+    else {
+      setScore("type4")
+    }
+    
   }
 
   return (
@@ -265,10 +281,10 @@ function Quiz() {
 
       
       {/* {score != null &&  score <= 5 &&  <h2> Your score is {score}/3. </h2>}  */}
-      {score >= 5 && score <= 8 && navigate ("/QuizResults1")}
-      {score >= 9 && score <= 12 && navigate ("/QuizResults2")}
-      {score >= 13 && score <= 16 && navigate ("/QuizResults3")}
-      {score >= 17 && score <= 20 && navigate ("/QuizResults")}
+      {score == "type1" && navigate ("/QuizResults1")}
+      {score == "type2" && navigate ("/QuizResults2")}
+      {score == "type3" && navigate ("/QuizResults3")}
+      {score == "type4" && navigate ("/QuizResults4")}
       
 
       

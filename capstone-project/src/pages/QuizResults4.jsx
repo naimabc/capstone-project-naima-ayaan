@@ -7,7 +7,7 @@ import Type4 from "../components/archetypes/Type4.jsx";
 
 
 
-function QuizResults() {
+function QuizResults4() {
   return(
     <div>
       <Header title='Results:' subtitle='Your Archetype is the...'/>
@@ -20,4 +20,4 @@ function QuizResults() {
 }
 
 
-export default QuizResults;
+export default QuizResults4;
