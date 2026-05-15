@@ -25,10 +25,13 @@ import PoppyWar from "./pages/Books/PoppyWar";
 import BrightCreatures from "./pages/Books/BrightCreatures";
 import HungerGames from "./pages/Books/HungerGames";
 import Search from "./pages/Search";
+import {useState} from "react";
+
 
 
 function App() {
-
+     const [score,setScore] = useState("");
+     
   return (
     <div class="bg-zest">
       <div class="text-center p-10">
@@ -46,7 +49,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/login" element={<Login />} />
             <Route path="/profile" element={<Profile />} />
-            <Route path="/quiz" element={<Quiz />}/>
+            <Route path="/quiz" element={<Quiz/>}/>
             <Route path="/search" element={<Search />}/>
             <Route path="/Books/mempol" element={<MemPol />}/>
             <Route path="/Books/onearth" element={<OnEarth />}/>

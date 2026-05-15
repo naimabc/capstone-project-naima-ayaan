@@ -5,12 +5,14 @@ import Type1 from "../components/archetypes/Type1.jsx";
 import Type2 from "../components/archetypes/Type2.jsx";
 import Type3 from "../components/archetypes/Type3.jsx";
 import Type4 from "../components/archetypes/Type4.jsx";
+import {useState} from "react";
 
 
 function Profile() {
+  const [score,setScore] = useState("");
   return(
     <div>
-      <Header title="Your" subtitle='Profile'/>
+      <Header title="Your Profile:" subtitle=''/>
       <Subtitle subtitle='Your Reading Type:'/>
       <Type4/>
       <Subtitle subtitle='Saved Books:'/>

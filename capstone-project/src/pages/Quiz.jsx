@@ -8,13 +8,12 @@ import { useNavigate } from 'react-router-dom';
 
 
 function Quiz() {
-
+     const [score,setScore] = useState("");
   const [answer1, setAnswer1] = useState("");
   const [answer2, setAnswer2] = useState("");
   const [answer3, setAnswer3] = useState("");
   const [answer4, setAnswer4] = useState("");
   const [answer5, setAnswer5] = useState("");
-  const [score,setScore] = useState(0);
   const navigate = useNavigate();
   
 
